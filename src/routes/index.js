@@ -3,7 +3,7 @@ const router = express.Router()
 
 router.get("/", function(req, res){
     res.status(200).send({
-        title: "Reprogrma Turma Meli",
+        title: "Reprograma Turma Meli",
         version: '0.0.1'
     })
 })
